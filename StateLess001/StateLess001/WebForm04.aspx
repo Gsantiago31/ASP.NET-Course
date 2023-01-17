@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm02.aspx.cs" Inherits="StateLess001.WebForm02" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm04.aspx.cs" Inherits="StateLess001.WebForm04" %>
 
 <!DOCTYPE html>
 
@@ -11,10 +11,9 @@
     <form id="form1" runat="server">
         <div>
             <asp:TextBox ID="txtConteo" runat="server"></asp:TextBox>
-            <asp:Button ID="btnIncrementa" runat="server" OnClick="btnIncrementa_Click" Text="Incrementa" />
+            <asp:Button ID="btnIncrementa" runat="server" Text="Incrementa" OnClick="btnIncrementa_Click" />
             <br />
-            viewState webform2 <br />
-            Comparar con webform4 en lección de variables de sesión
+            viewstate webform04
         </div>
     </form>
 </body>
